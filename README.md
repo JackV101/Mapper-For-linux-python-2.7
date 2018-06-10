@@ -2,7 +2,8 @@
 
 ## Requirements:
 
-hl.colours or included modified hl.colours file
+hl.colours
+mapper.pyc
 
 ## Commands:
 
