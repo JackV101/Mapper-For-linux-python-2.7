@@ -31,6 +31,40 @@ mapper.setup(width,height,display progress)
 - ```char``` - str - The character that will be drawn
 - ```colour``` - str - The colour of the character, black is invisible in most command lines
 
-### fill
+### Fill Map
 
-```mapper.fill(char.colour)```
+```mapper.fill(char,colour)```
+- ```char``` - str - The Character that will fill the map
+- ```colour``` - str - The colour of the character that will fill the map
+
+### Rectangle
+###### This is used to draw a filled in rectangle anywhere in the map
+
+```mapper.rect(x1,y1,x2,y2,char,colour)```
+- ```x1,y1``` - int - The starting coordinates of your rectangle (top left)
+- ```x2,y2``` - int - The Ending coordinated of your rectangle (lower right)
+- ```char``` - str - The character used to border and fill in your rectangle
+- ```colour``` - str - The colour of the character used to border and fill your rectangle
+
+### Text
+###### Used to display text on the map
+
+```mapper.text(x,y,text,colour,centered)```
+- ```x,y``` - int - The coordinates of the text, left if uncentered
+- ```text``` - str - The text that will be displayed
+- ```colour``` - str - The colour of the text
+- ```centered``` - bool - If true the text will be horizontally centered on the coordinated
+
+## Available colours
+### Colours
+**All text is lower case. Add a b in front of the colour to make is bright**
+```bred```
+
+- Red
+- Green
+- Yellow
+- Blue
+- Magenta
+- Cyan
+- Black
+- White (37)
