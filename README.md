@@ -75,18 +75,19 @@ mapper.setup(width,height,display progress)
 **All text is lower case. Add a b in front of the colour to make is bright**
 ```bred```
 
-- Red
-- Green
-- Yellow
-- Blue
-- Magenta
-- Cyan
-- Black
+- ```Red```
+- ```Green```
+- ```Yellow```
+- ```Blue```
+- ```Magenta```
+- ```Cyan```
+- ```Black```
+
 Following must be added manually:
-- White (37)
-- Light Red (91)
-- Ligt Green (92)
-- Light Yellow (93)
-- Light Blue (94)
-- Light Magenta (95)
-- Light Cyan (96)
+- ```White``` (37)
+- ```Light Red``` (91)
+- ```Light Green``` (92)
+- ```Light Yellow``` (93)
+- ```Light Blue``` (94)
+- ```Light Magenta``` (95)
+- ```Light Cyan``` (96)
