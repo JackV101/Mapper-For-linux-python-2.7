@@ -26,11 +26,12 @@ mapper.setup(width,height,display progress)
 ### Draw
 ###### This is used to place a character on a single point in the array
 
-```mapper.draw(x,y,char,colour)```
+```mapper.draw(x,y,char,colour,area)```
 
 - ```x,y``` - int - The coordinates of your point
 - ```char``` - str - The character that will be drawn
 - ```colour``` - str - The colour of the character, black is invisible in most command lines
+- ```area``` - str - Specify the relative area for the coordinates
 
 ### Fill Map
 
@@ -41,20 +42,24 @@ mapper.setup(width,height,display progress)
 ### Rectangle
 ###### This is used to draw a filled in rectangle anywhere in the map
 
-```mapper.rect(x1,y1,x2,y2,char,colour)```
+```mapper.rect(x1,y1,x2,y2,char,colour,area)```
 - ```x1,y1``` - int - The starting coordinates of your rectangle (top left)
 - ```x2,y2``` - int - The Ending coordinated of your rectangle (lower right)
 - ```char``` - str - The character used to border and fill in your rectangle
 - ```colour``` - str - The colour of the character used to border and fill your rectangle
+- ```area``` - str - Specify the relative area for the coordinates
 
 ### Text
 ###### Used to display text on the map
 
-```mapper.text(x,y,text,colour,centered)```
+```mapper.text(x,y,text,colour,centered,area)```
 - ```x,y``` - int - The coordinates of the text, left if uncentered
 - ```text``` - str - The text that will be displayed
 - ```colour``` - str - The colour of the text
 - ```centered``` - bool - If true the text will be horizontally centered on the coordinated
+- ```area``` - str - Specify the relative area for the coordinates
+
+### This list is a work in progress and does not fully reflect the extent of this scripts ability
 
 ## Install and Modify hl.colours
 
@@ -77,4 +82,11 @@ mapper.setup(width,height,display progress)
 - Magenta
 - Cyan
 - Black
+Following must be added manually:
 - White (37)
+- Light Red (91)
+- Ligt Green (92)
+- Light Yellow (93)
+- Light Blue (94)
+- Light Magenta (95)
+- Light Cyan (96)
