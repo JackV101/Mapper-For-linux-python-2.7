@@ -56,6 +56,15 @@ mapper.setup(width,height,display progress)
 - ```colour``` - str - The colour of the text
 - ```centered``` - bool - If true the text will be horizontally centered on the coordinated
 
+## Install and Modify hl.colours
+
+1. ```pip install hl.colours```
+2. ```pip show hl.colours```
+3. Go to the listed directory
+4. ```cd hl```
+5. ```vim colours.py```
+6. Add the colour and value to the list, for example white is 37
+
 ## Available colours
 ### Colours
 **All text is lower case. Add a b in front of the colour to make is bright**
