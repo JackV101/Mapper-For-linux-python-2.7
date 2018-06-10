@@ -1,7 +1,7 @@
 # Mapper-For-linux-python-2.7
 
-# Commands:
-
+Commands:
+---------
 
 mapper.setup(width,height,display progress)
 width - int - sets the width in characters that your map will be starting from 0
