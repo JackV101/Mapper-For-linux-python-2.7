@@ -1,20 +1,37 @@
-# Mapper-For-linux-python-2.7
+# Mapper For linux python 2.7
+
+## Requirements:
+
+hl.colours or included modified hl.colours file
 
 ## Commands:
 
 ### Setup
 
-mapper.setup(width,height,display progress)
+##### mapper.setup(width,height,display progress)
+###### This is used to create the map array
 
-width - int - sets the width in characters that your map will be starting from 0
-height - int - sets the height in characters that your map will be starting at 0
-display progress - bool - simply displays the line number last created
+width - int - Sets the width in characters that your map will be starting from 0
+height - int - Sets the height in characters that your map will be starting at 0
+display progress - Bool - simply displays the line number last created
 
 ### Create Areas
 
-mapper.drawSeg(x1,y1,x2,y1,name)
+##### mapper.drawSeg(x1,y1,x2,y1,name)
+###### This is used to name certain sections of your map for easy referencing coordinated later
+x1,y1 - int - The starting coordinates for your area
+x2,y2 - int - The ending coordinated for your area
+name - str - The name of your area, this can be used to reference certain parts of you map later
 
-x1,y1 - int - the starting coordinates for your area
-x2,y2 - int - the ending coordinated for your area
-name - str - the name of your area, this can be used to reference certain parts of you map later
+### Draw
+###### This is used to place a character on a single point in the array
 
+##### mapper.draw(x,y,char,colour)
+
+x,y - int - The coordinates of your point
+char - str - The character that will be drawn
+colour - str - The colour of the character, black is invisible in most command lines
+
+### fill
+
+##### mapper.fill(char.colour)
